@@ -1,0 +1,89 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, aside, main, footer {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+header {
+    background-image: url(static/images/header.jpg);
+    background-size: 1000px;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-button {
+    background-color: olive;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* changes the color when pointer hovers over button */
+.nav-button:hover {
+    background-color: #45a049;
+}
+
+aside {
+    background-image: url(static/images/side.jpg);
+    background-size: 675px;
+    height: 80px;
+    border: 1px solid #ccc;
+}
+
+main {
+    background-color: #774f0bcd;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+article {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+figure {
+    background-color: olive;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+figcaption {
+    font-style: italic;
+    padding: 10px;
+    color: #555;
+}
+
+p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* 'relative' allows it to sit at the bottom so it doesnt cover content */
+    position:relative; 
+    width: 100%;
+    bottom: 0;
+}
